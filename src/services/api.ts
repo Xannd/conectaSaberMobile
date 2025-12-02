@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // Cria a instância do Axios
 const api = axios.create({
     // Graças ao 'adb reverse', o Android entende localhost como sendo o seu PC
-    baseURL: 'http://localhost:3000/api', 
+    baseURL: 'https://conecta-saber-backend.onrender.com/api', 
     headers: {
         'Content-Type': 'application/json',
     },
